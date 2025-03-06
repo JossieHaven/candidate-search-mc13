@@ -86,8 +86,8 @@ const CandidateSearch = () => {
             </a>
           </div>
           <div className="actions">
-            <button onClick={handleDislike}>👍</button>
-            <button onClick={handleLike}>👎</button>
+            <button onClick={handleDislike}>👎</button>
+            <button onClick={handleLike}>👍</button>
           </div>
         </>
       ) : (
